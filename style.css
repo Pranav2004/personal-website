@@ -1,0 +1,44 @@
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set up the page styles */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 3rem;
+    color: #000;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* Link styling */
+  a {
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
