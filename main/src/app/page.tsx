@@ -1,15 +1,14 @@
 /* /src/app/page.tsx */
-/* eslint-disable react/no-unescaped-entities */
+
 
 import styles from "../styles/Home.module.css";
-import about from "./about";
 
 export default function Page() {
   return (
     <div className={styles.container}>
       <header>
         <img src="/logo.png" alt="Website Logo" className={styles.logo} />
-        <link href="/about">
+        <link href="/about"></link>
         <a>
           <button
             style={{
@@ -24,7 +23,6 @@ export default function Page() {
             AboutMe
           </button>
         </a>
-      </link>
       </header>
       </div>
   );

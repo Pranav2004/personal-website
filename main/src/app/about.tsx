@@ -1,7 +1,7 @@
 import styles from '../styles/About.module.css';
 import App from 'next/app';
 
-export default function about() {
+export default function About() {
     return (
         <><h1 className={styles.title}>Pranav</h1><p className={styles.subtitle}>
             I am a seeker, wandering through the realms of thought and action, led
@@ -40,5 +40,5 @@ export default function about() {
                 </a>
             </p></>
   );
-}
+} 
 
