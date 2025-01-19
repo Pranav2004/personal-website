@@ -1,31 +1,31 @@
 /* /src/app/page.tsx */
+/* eslint-disable react/no-unescaped-entities */
 
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
+import about from "./about";
 
 export default function Page() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Pranav Jadav</h1>
-      <p className={styles.subtitle}>Web Developer | Full Stack Engineer</p>
-      <p>
-        <a
-          href="https://github.com/pranavjadav"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.link}
-        >
-          GitHub
-        </a>{" "}
-        |{" "}
-        <a
-          href="https://linkedin.com/in/pranavjadav"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.link}
-        >
-          LinkedIn
+      <header>
+        <img src="/logo.png" alt="Website Logo" className={styles.logo} />
+        <link href="/about">
+        <a>
+          <button
+            style={{
+              padding: "10px 20px",
+              backgroundColor: "#4CAF50",
+              color: "white",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+            }}
+          >
+            AboutMe
+          </button>
         </a>
-      </p>
-    </div>
+      </link>
+      </header>
+      </div>
   );
 }
