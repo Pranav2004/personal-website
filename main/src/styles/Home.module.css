@@ -1,0 +1,64 @@
+/* /src/styles/Home.module.css */
+
+html,
+body {
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  width: 100%; 
+  background-color: #282828; 
+}
+
+.container {
+  margin-inline-start: auto;
+  font-family: Arial, sans-serif;
+  background-color: #282828;
+}
+
+.header {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+.logo {
+   width: 130px; 
+   height: auto; 
+   margin-bottom: 15px;
+   margin-top: 5px;
+   margin-left: 5px;
+}  
+
+.aboutSection {
+  flex: 1;
+  text-align: left;
+}
+
+.aboutSection h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.aboutSection p {
+  margin: 0;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.link {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
